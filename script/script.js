@@ -36,7 +36,7 @@ for (var i = 0; i < studenti.length; i++) {
 // Dare la possibilità all'utente, attraverso 3 prompt(), di aggiungere un nuovo oggetto studente inserendo nell'ordine: nome, cognome e età.
 
 do {
-    var nuovo = prompt("Vuoi inserire un nuovo studente? si/no");
+    var nuovo = prompt("Vuoi inserire un nuovo studente? si/no").toLowerCase();
 } while (nuovo != "si" && nuovo != "no");
 
 if (nuovo == "si") {
